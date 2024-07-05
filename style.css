@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Figtree", sans-serif;
+}
+
+.card {
+    padding: 24px;
+    width: 384px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px 0px rgba(0,0,0,1);
+    border: 1.5px solid black;
+}
+.imagenGeneral {
+    border-radius: 10px;
+    width: 100%;
+}
+.categoria {
+    margin-bottom: 12px;
+    width: fit-content;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+
+}
+
+.contenedor{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.fechaPublicacion {
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.nombre {
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.nombre:hover {
+    color: hsl(47, 88%, 63%);
+}
+.texto {
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(0, 0%, 50%);
+    line-height: 1.5; /* Ajusta el valor según tus necesidades */
+}
+
+
+.user {
+    display: flex;
+    align-items: center;
+}
+.autor {
+    padding-left: 12px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
